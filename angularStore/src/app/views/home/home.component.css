@@ -1,0 +1,41 @@
+.navbar {
+    padding: 0 30px;
+    height: 15%;
+    background-image: linear-gradient(#43494F, #515254, #43494F);
+}
+
+.grad {
+    background-image: linear-gradient(to left, #D3D3D3, #C0C0C0);
+}
+
+.rodape {
+    height: 15%;
+    background-image: linear-gradient(#43494F, #515254, #43494F);
+}
+
+.icon {
+    color: rgb(0, 183, 255);
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #D3D3D3, #D3D3D3);
+    border: none;
+    margin-right: 1%;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.carrinho {
+    flex: 1 1 auto;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+.mat-grid-tile {
+    background: lightblue;
+}

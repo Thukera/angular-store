@@ -1,1 +1,42 @@
-<p>home works!</p>
+<!doctype html>
+
+<!-- NAVBAR -->
+<mat-toolbar class="navbar">
+    <span class=""><img src="assets/logo.png" ></span>
+    <span class="carrinho"></span>
+    <img style="margin-right: 2%;" src="assets/usericon.png">
+    <img src="assets/carrinhoicon.png">
+</mat-toolbar>
+
+<!--Toolbar com produtos-->
+<mat-toolbar class="grad">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Veja nossos produtos</span>
+
+    <span class="spacer"></span>
+    <button mat-icon-button class="icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    <button mat-icon-button class="icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+
+</mat-toolbar>
+
+<!--Body-->
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+</mat-grid-list>
+
+<!--Rodapé-->
+<mat-toolbar class="rodape">
+    <mat-toolbar-row><span></span>
+        <span class="spacer"></span>
+    </mat-toolbar-row>
+    <mat-toolbar-row><span style="font-style:italic; font-size: small; color: aliceblue;">Pagina criada fins academicos</span></mat-toolbar-row>
+</mat-toolbar>
