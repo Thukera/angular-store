@@ -8,7 +8,7 @@ import { HomeComponent } from './views/home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -22,7 +22,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [Title],
   bootstrap: [AppComponent]

@@ -1,8 +1,8 @@
 <!doctype html>
 
-<!-- NAVBAR -->
+<!-- cabeçalho -->
 <mat-toolbar class="navbar">
-    <span class=""><img src="assets/logo.png" ></span>
+    <span class=""><img style="max-width: 32%;"src="assets/logo3.png" ></span>
     <span class="carrinho"></span>
     <img style="margin-right: 2%;" src="assets/usericon.png">
     <img src="assets/carrinhoicon.png">
@@ -10,10 +10,10 @@
 
 <!--Toolbar com produtos-->
 <mat-toolbar class="grad">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-icon-button class="icon" style="margin-left: 2.5%" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>Veja nossos produtos</span>
+    <span style="color: azure;"></span>
 
     <span class="spacer"></span>
     <button mat-icon-button class="icon favorite-icon" aria-label="Example icon-button with heart icon">
@@ -26,12 +26,22 @@
 </mat-toolbar>
 
 <!--Body-->
-<mat-grid-list cols="2" rowHeight="2:1">
-    <mat-grid-tile>1</mat-grid-tile>
-    <mat-grid-tile>2</mat-grid-tile>
-    <mat-grid-tile>3</mat-grid-tile>
-    <mat-grid-tile>4</mat-grid-tile>
-</mat-grid-list>
+<div>
+    <div class="row" style="height: 200px">
+        <div class="col-3">...</div>
+        <!-- 25% -->
+        <div class="col-9">...</div>
+        <!-- 75% -->
+    </div>
+    <div class="row">
+        <div class="col-5">...</div>
+        <!-- 25% -->
+        <div class="col-5">...</div>
+        <!-- 75% -->
+    </div>
+
+
+</div>>
 
 <!--Rodapé-->
 <mat-toolbar class="rodape">
